@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>To-Do App with JavaScript</title>
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+  
+  <div class="wrapper">
+    <div class="task-input">
+      <i class='bx bx-menu-alt-left'></i>
+      <!-- <img src="bars-icon.svg" alt="icon" /> -->
+      <input type="text" placeholder="Add a new task">
+    </div>
+    <div class="controls">
+      <div class="filters">
+        <span id="all" class="active">All</span>
+        <span id="pending">Pending</span>
+        <span id="completed">Completed</span>
+      </div>
+      <button class="clear-btn">Clear All</button>
+    </div>
+    <ul class="task-box"></ul>
+  </div>
+
+  
+  <!-- Project -->
+  <script src="./main.js"></script>
+</body>
+</html>
